@@ -75,7 +75,7 @@
                                         <td>{{ $loop->iteration }}</td>
                                         <td>{{ $item->judul }}</td>
                                         <td>{{ $item->penulis }}</td>
-                                        <td>{{ $item->kategori->name }}</td>
+                                        <td>{{ $item->category->name }}</td>
                                         <td>{{ $item->penerbit }}</td>
                                         <td>{{ $item->tahun_terbit }}</td>
                                         <td>
